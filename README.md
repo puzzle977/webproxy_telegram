@@ -1,18 +1,18 @@
 Установка
 
-создайте запись днс на ваш сайт, с бесплатным поддоменом или своим платным.
+Cоздайте запись днс на ip вашего VPS с бесплатным поддоменом или своим платным.
 
 Подключитесь к VPS:
 
-ssh root@SERVER_IP
+**ssh root@SERVER_IP**
 
 Скачайте скрипт:
 
-curl -fsSL https://raw.githubusercontent.com/puzzle977/webproxy_telegram/refs/heads/main/install.sh -o install.sh
+**curl -fsSL https://raw.githubusercontent.com/puzzle977/webproxy_telegram/refs/heads/main/install.sh -o install.sh**
 
-chmod +x install.sh
+**chmod +x install.sh**
 
-./install.sh
+**./install.sh**
 
 Скрипт сам спросит:
 
@@ -28,8 +28,12 @@ WEB Proxy secret генерируется автоматически.
 
 В конце скрипт покажет:
 
-Hostname: proxy.example.com
-Secret:   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Telegram settings:
+Proxy type : WEB
+Host       : proxy.example.com
+Key        : xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
 
 В Telegram:
 

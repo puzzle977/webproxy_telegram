@@ -9,7 +9,9 @@ ssh root@SERVER_IP
 Скачайте скрипт:
 
 curl -fsSL https://raw.githubusercontent.com/puzzle977/webproxy_telegram/refs/heads/main/install.sh -o install.sh
+
 chmod +x install.sh
+
 ./install.sh
 
 Скрипт сам спросит:

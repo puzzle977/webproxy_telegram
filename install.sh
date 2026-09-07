@@ -1,9 +1,3 @@
-
-Официальная документация действительно рекомендует отдельный обычный сайт: весь hostname должен проходить через relay, а одинаковый шаблон на множестве серверов нежелателен с точки зрения active probing. :contentReference[oaicite:2]{index=2}
-
-## `install.sh`
-
-```bash
 #!/usr/bin/env bash
 
 set -Eeuo pipefail

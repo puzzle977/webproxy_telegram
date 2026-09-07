@@ -555,6 +555,7 @@ Service ID: ${SITE_ID}
 EOF
 
 
+    chmod 0755 "$SITE_DIR"
     chmod 0644 "$SITE_DIR"/*
 
     echo
@@ -782,6 +783,11 @@ if command -v ufw >/dev/null 2>&1 &&
     ufw allow 443/tcp
 fi
 
+
+# Ensure public site path is accessible by tproxy-server before starting services
+chmod 0755 "$(dirname "$SITE_DIR")"
+chmod 0755 "$SITE_DIR"
+chmod 0644 "$SITE_DIR"/*
 
 # ------------------------------------------------------------
 # Official installation

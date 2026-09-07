@@ -1016,12 +1016,6 @@ echo "Secret file:"
 echo "  $SECRET_FILE"
 echo
 
-echo "Telegram settings:"
-echo
-echo "  Proxy type : WEB"
-echo "  Host       : $DOMAIN"
-echo "  Key        : $SECRET"
-echo
 
 echo "Telegram link:"
 echo
@@ -1060,4 +1054,11 @@ fi
 echo
 echo "Installed tproxy-server commit:"
 echo "  $COMMIT"
+echo
+
+echo "Telegram settings:"
+echo
+echo "  Proxy type : WEB"
+echo "  Host       : $DOMAIN"
+echo "  Key        : $SECRET"
 echo
